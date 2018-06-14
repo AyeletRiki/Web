@@ -7,3 +7,5 @@
     pip install unittest
 
     pip install flask
+    
+    pip install configparser
