@@ -1,5 +1,4 @@
 import re, json
-from flask import Flask
 
 number = re.compile('[0-9]')
 operator = re.compile('[\+\-\*\/\=]')

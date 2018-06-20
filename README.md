@@ -4,8 +4,10 @@
 
 2. Install needed packages:
 
-    pip install unittest
+    pip install unittest2
 
     pip install flask
     
     pip install configparser
+
+3. Install curl (Windows): https://skanthak.homepage.t-online.de/download/curl-7.60.0.cab
