@@ -9,5 +9,7 @@
     pip install flask
     
     pip install configparser
+    
+    pip install requests
 
 3. Install curl (Windows): https://skanthak.homepage.t-online.de/download/curl-7.60.0.cab
