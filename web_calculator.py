@@ -43,30 +43,3 @@ def calculate_next_state(json_state, input):
             json_state['operator'] = input
             json_state['num2'] = ''
     return json_state
-
-
-# main
-# s = None
-# s = calculate_next_state(s, '1')
-# #print(json.dumps(s)['display'])
-# print(s['display'])
-# s = calculate_next_state(s, '2')
-# print(s['display'])
-# s = calculate_next_state(s, '+')
-# print(s['display'])
-# s = calculate_next_state(s, '1')
-# print(s['display']) # 4
-# s = calculate_next_state(s, '3')
-# print(s['display']) # 43
-# s = calculate_next_state(s, '=')
-# print(s['display']) # 55
-# s = calculate_next_state(s, '2')
-# print(s['display']) # 55
-# s = calculate_next_state(s, '1')
-# print(s['display']) # 1
-# s = calculate_next_state(s, '=')
-# print(s['display']) # 56
-# s = calculate_next_state(s, '5')
-# print(s['display']) # 5
-
-
