@@ -45,8 +45,8 @@ Ayelet Ehrman - 315311860
 	In order to build the calculator server Docker we run the command: docker build . -t currency-calculator.
 	In order to run the server we run the command: docker run -p 3000:3000 currency-calculator.
 	Now calculator server Docker is up and we can address him, for that we need to know the ip of our computer.
-	We run ipconfig and extract the ip from there and then send our request to <ip>:3000 like that:
-	curl http://<ip>:3000/calculate -X POST -H "Content-Type:application/json" -d "{\"calculatorState\":null,\"input\":\"1\"}".
+	We run ipconfig and extract the ip from there and then send our request to ip:3000 like that:
+	curl http://ip:3000/calculate -X POST -H "Content-Type:application/json" -d "{\"calculatorState\":null,\"input\":\"1\"}".
 	
 7. Docker Compose:
 
