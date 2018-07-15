@@ -25,7 +25,9 @@ calculate function is mapped to the '/calculate' URL.
 @app.route('/calculate', methods=['POST'])
 def calculate():
     # extract the state.
-    calculator_state = request.json['calculatorState']
+    calculator_state = None
+    if 'calculatorState' in request.json:
+        calculator_state = request.json['calculatorState']
     input = request.json['input']
     return jsonify(calculate_next_state(calculator_state, input))
 
